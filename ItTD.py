@@ -86,7 +86,7 @@ for i in images:
                 symbols_colors.append('\'▌\'' + '/' + "'#4a4e54'")
         command += generate_text_display_command(symbols_colors, scale_x, scale_y, scale_z)
         command += f"],Tags:[\'{image_name.lstrip('/')}\']" + "}"
-    path = f'output/ItBD/data/itbd/function/{image_name}.mcfunction'
+    path = f'output/ItTD/data/ittd/function/{image_name}.mcfunction'
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, 'w', encoding = 'utf-8') as file:
         command += f'\nexecute as @e[tag={image_name.lstrip('/')}] at @s run ride @s mount @e[tag={image_name.lstrip('/')},limit=1,distance=..5]'
