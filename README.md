@@ -1,14 +1,16 @@
 # ItTD-minecraft
 Turns images into .mcfunction files that spawn text displays
-
+# Functionality
+* Supports .png and .jpg
+* You can change the size of the image(read Usage)
+* Fully vanilla(If you add the datapack on a server anybody will be able to see the image)
 # Installation:
-## Linux:
-Unzip the archive and run ./ImageToTextDisplay in terminal
 ## Windows:
-No archive for now, but you can download the source code and use auto-py-to-exe to compile it. And do not forget to download a datapack from the sources as well and put it in the same folder as the application.
+Just unzip the archive and run the ItTD.exe
 # Usage:
 Put the images in the same folder as the executable and run it. You will be able to choose how many pixels should fit in a width of one block(simply enter the number of pixels) and then the datapack will be ready. Use /function ittd:(the name of the image) and the image will be spawned.
+Images can be removed by using /kill @e[tag=name of the image]
+Also, i highly recommend using the Axiom mod to be able to easily move and rotate the images.
 # Limitations:
-* Only .png(for now)
-* No transparency support(just replaces fully transparent pixels with gray ones)
-* I am not exactly sure how big of an image can be spawned, but a 235 x 169 image was giving my pc a tough time so I dont recommend to import images bigger than that.
+* No transparency support(transparent pixels will just get their alpha value set to 1)
+* Maximum width of an image is around 500 pixels. The only reason it's limited is because of minecraft's command length limitations in datapacks. It can be bypassed by using more .mcfunction files but it's not implemented yet
