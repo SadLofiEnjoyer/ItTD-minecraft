@@ -1,8 +1,7 @@
 # ItTD-minecraft
 Turns images into .mcfunction files that spawn text displays
-<img width="1920" height="1080" alt="2026-06-26_11 38 13" src="https://github.com/user-attachments/assets/69c919f1-e7cb-416c-8d8c-480967c4c8f7" />
-Image taken from https://www.pixilart.com/art/burj-al-arab-3b91ef05924c?ft=topic&ft_id=21 and it's been compressed to fit the limitations
-# Functionality
+
+# Functionality:
 * Supports .png and .jpg
 * You can change the size of the image(read Usage)
 * Fully vanilla(If you add the datapack on a server anybody will be able to see the image)
