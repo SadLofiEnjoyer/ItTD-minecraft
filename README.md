@@ -8,7 +8,7 @@ Turns images into .mcfunction files that spawn text displays
 # Installation:
 ## Windows:
 Unzip the archive and run the ItTD.exe
-Put the images in the same folder as the executable and run it. You will be able to choose how many pixels should fit in a width of one block(simply enter the number of pixels) and then the datapack will be ready. Then just put it into the datapacks folder of your world
+Put the images in the same folder as the executable and run it. You will be able to choose how many pixels should fit in a width of one block(simply enter the number of pixels) and then the datapack will be in the output folder(do not use the ItTD-datapack, it's just there in case you decide to move the files from the output folder instead of copying them. If you do that, just rename the ItTD-datapack to ItTD and put it back into the output folder(I'll write some code that does that automatically later). Then just put it into the datapacks folder of your world.
 # Usage:
 Use /function ittd:(the name of the image) and the image will be spawned.
 Images can be removed by using /kill @e[tag=name of the image]
